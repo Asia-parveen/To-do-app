@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(42, 2, 42);
+}
+.container {
+  margin-top: 30px;
+  width: 60%;
+  justify-content: center;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+h1 {
+  color: white;
+  margin-left: 30px;
+ 
+}
+
+#input {
+  outline: none;
+  border: none;
+  font-size: 19px;
+  padding: 8px;
+  box-shadow: 0px 0px 4px white;
+  border-radius: 5px;
+  width: 70%;
+  font-weight: 400;
+  margin-top: 20px;
+
+}
+#btn {
+  font-size: 19px;
+  border: none;
+  outline: none;
+  padding: 8px 15px;
+  font-weight: 400;
+  background-color: blueviolet;
+  box-shadow: 0px 0px 2px white;
+  border-radius: 5px;
+  
+  color: white;
+  cursor: pointer;
+
+}
+#btn:hover{
+    background-color: purple;
+    color:white ;
+}
+.text ul {
+  color: rgb(42, 2, 42);
+  position: relative;
+  background-color: white;
+  font-size: 19px;
+  text-align: left;
+  margin-top: 15px;
+  color: black;
+  padding: 10px;
+  width: 85%;
+  border-radius: 5px;
+
+}
+.text ul i {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  color: rgb(42, 2, 42);
+}
+@media (min-width:350px) and (max-width:638px) {
+    h1{
+        font-size: 25px;
+    }
+    #input{
+        font-size: 16px;
+        padding: 6px;
+        box-shadow: 0px 0px 4px white;
+        border-radius: 5px;
+        width: 100%;
+        font-weight: 300;
+        margin-top: 20px;
+    }
+    #btn {
+        font-size: 16px;
+        padding: 3px 10px;
+        font-weight: 300;
+        background-color: blueviolet;
+        box-shadow: 0px 0px 2px white;
+        border-radius: 5px;
+        width: 100%;
+        color: white;
+        cursor: pointer;
+        margin-top: 5px;
+      
+      }
+      #btn:hover{
+        background-color: rgb(197, 144, 197);
+        color:rgb(42, 2, 42) ;
+    }
+    .text ul {
+      /* color: rgb(42, 2, 42);
+      position: relative;
+      background-color: white; */
+      font-size: 16px;
+      text-align: left;
+      margin-top: 15px;
+      color: black;
+      padding: 8px;
+      width: 100%;
+      border-radius: 5px;
+    }
+  }
+
+    
+    
+       
+
