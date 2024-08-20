@@ -20,11 +20,9 @@ body {
   align-items: center;
 }
 
-
 h1 {
   color: white;
   margin-left: 30px;
- 
 }
 
 #input {
@@ -37,7 +35,6 @@ h1 {
   width: 70%;
   font-weight: 400;
   margin-top: 20px;
-
 }
 #btn {
   font-size: 19px;
@@ -48,14 +45,13 @@ h1 {
   background-color: blueviolet;
   box-shadow: 0px 0px 2px white;
   border-radius: 5px;
-  
+
   color: white;
   cursor: pointer;
-
 }
-#btn:hover{
-    background-color: purple;
-    color:white ;
+#btn:hover {
+  background-color: purple;
+  color: white;
 }
 .text ul {
   color: rgb(42, 2, 42);
@@ -68,7 +64,6 @@ h1 {
   padding: 10px;
   width: 85%;
   border-radius: 5px;
-
 }
 .text ul i {
   position: absolute;
@@ -76,51 +71,88 @@ h1 {
   cursor: pointer;
   color: rgb(42, 2, 42);
 }
-@media (min-width:300px) and (max-width:638px) {
-    h1{
-        font-size: 25px;
-    }
-    #input{
-        font-size: 16px;
-        padding: 6px;
-        box-shadow: 0px 0px 4px white;
-        border-radius: 5px;
-        width: 100%;
-        font-weight: 300;
-        margin-top: 20px;
-    }
-    #btn {
-        font-size: 16px;
-        padding: 3px 10px;
-        font-weight: 300;
-        background-color: blueviolet;
-        box-shadow: 0px 0px 2px white;
-        border-radius: 5px;
-        width: 100%;
-        color: white;
-        cursor: pointer;
-        margin-top: 5px;
-      
-      }
-      #btn:hover{
-        background-color: rgb(197, 144, 197);
-        color:rgb(42, 2, 42) ;
-    }
-    .text ul {
-      /* color: rgb(42, 2, 42);
+@media (min-width: 260px) and (max-width: 299px) {
+  h1 {
+    font-size: 20px;
+  }
+  #input {
+    font-size: 14px;
+    padding: 4px;
+    box-shadow: 0px 0px 4px white;
+    border-radius: 5px;
+    width: 100%;
+    font-weight: 200;
+    margin-top: 16px;
+  }
+  #btn {
+    font-size: 14px;
+    padding: 3px 8px;
+    font-weight: 200;
+    background-color: blueviolet;
+    box-shadow: 0px 0px 2px white;
+    border-radius: 5px;
+    width: 100%;
+    color: white;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  #btn:hover {
+    background-color: rgb(197, 144, 197);
+    color: rgb(42, 2, 42);
+  }
+  .text ul {
+    /* color: rgb(42, 2, 42);
+  position: relative;
+  background-color: white; */
+    font-size: 14px;
+    text-align: left;
+    margin-top: 15px;
+    color: black;
+    padding: 8px;
+    width: 100%;
+    border-radius: 5px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 638px) {
+  h1 {
+    font-size: 25px;
+  }
+  #input {
+    font-size: 16px;
+    padding: 6px;
+    box-shadow: 0px 0px 4px white;
+    border-radius: 5px;
+    width: 100%;
+    font-weight: 300;
+    margin-top: 20px;
+  }
+  #btn {
+    font-size: 16px;
+    padding: 3px 10px;
+    font-weight: 300;
+    background-color: blueviolet;
+    box-shadow: 0px 0px 2px white;
+    border-radius: 5px;
+    width: 100%;
+    color: white;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  #btn:hover {
+    background-color: rgb(197, 144, 197);
+    color: rgb(42, 2, 42);
+  }
+  .text ul {
+    /* color: rgb(42, 2, 42);
       position: relative;
       background-color: white; */
-      font-size: 16px;
-      text-align: left;
-      margin-top: 15px;
-      color: black;
-      padding: 8px;
-      width: 100%;
-      border-radius: 5px;
-    }
+    font-size: 16px;
+    text-align: left;
+    margin-top: 15px;
+    color: black;
+    padding: 8px;
+    width: 100%;
+    border-radius: 5px;
   }
-
-    
-    
-       
-
+}
