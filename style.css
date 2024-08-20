@@ -76,7 +76,7 @@ h1 {
   cursor: pointer;
   color: rgb(42, 2, 42);
 }
-@media (min-width:350px) and (max-width:638px) {
+@media (min-width:300px) and (max-width:638px) {
     h1{
         font-size: 25px;
     }
